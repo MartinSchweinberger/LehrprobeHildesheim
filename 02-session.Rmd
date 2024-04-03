@@ -1,0 +1,76 @@
+# Analysing learner speech in multimodal learner corpora
+
+In this session, we will focus on vowel production and learn how we can analyse vowels using Praat and visualize the results using R.
+
+
+```{r echo=F, eval = F, message=FALSE, warning=FALSE}
+install.packages("here")
+install.packages("readxl")
+install.packages("dplyr")
+install.packages("ggplot2")
+install.packages("knitr")
+install.packages("bookdown")
+```
+
+
+**How is speech different from text?**
+
+When we analyse text, we focus on tokens or sequences of tokens and then compare the frequency of tokens or patterns in on corpus to their use in another corpus.
+
+When analyzing speech, we do not focus on tokens but rather on features of speech sounds and compare these features across sounds and groups of speakers
+
+The procedures also differ (but also show commonalities):
+
+* **Text**: finding a corpus : processing the corpus using corpus software (AntConc | R): analyzing information (Excel | R) 
+
+* **Speech**: finding/recording audio data : alignment (BasMaus) : extracting speech features (Praat | ^?^R) :  analysing information (Excel | R)
+
+
+**How do we analyse speech**
+
+```{r lp1, echo=FALSE, out.width= "50%", out.extra='style="float:right; padding:10px"'}
+library(knitr)
+knitr::include_graphics(here::here("images/vc.png"))
+```
+
+
+In this course, we cannot go into detail as analysing speech is very diverse and versatile. Therefore, we will *focus only on analysing vowel sounds**.
+
+**Features of vowel sounds (in English)*
+
+In English, vowel sounds differ in:
+
+* Length: /i:/ and /I/ differ mostly in length: compare *heed* and *hid*
+
+* Tongue position (formants): /i:/ and /u:/ differ mostly in tongue position: when we produce  /i:/, our tongue is raised to the front of our mouth while the tongue is raised to the back of our mouth when we produce  /u:/ 
+
+**What are formants?**
+
+```{r lp2, echo=FALSE, out.width= "50%", out.extra='style="float:right; padding:10px"'}
+library(knitr)
+knitr::include_graphics(here::here("images/vtongue.png"))
+```
+
+What are **formants** and do they have to do with tongue position?
+
+* Formants are concentration of acoustic energy at a certain frequency 
+
+* First formants (F1) inversely correspond to the tongue height
+
+* Second formants (F2) and inversely correspond to tongue fronting
+
+We can use the software Praat to extract features of speech from audio data.
+
+## Today’s task {-}
+
+Today, we will perform a case study on extracting vowel features using BasMaus, Praat, and Excel.
+
+The case study will show 
+
+* how we use BasMaus to force align the transcript to audio data and to generate TextGrids
+
+* We use Praat to correct the force alignment and to extract formant frequencies
+
+* We use Excel to analyse and visualise the resulting data in a vowel chart
+
+

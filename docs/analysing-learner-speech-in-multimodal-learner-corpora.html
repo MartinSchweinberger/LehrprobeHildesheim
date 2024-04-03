@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>2 Analysing learner speech in multimodal learner corpora | Introduction to Corpus Linguistics</title>
+  <meta name="description" content="2 Analysing learner speech in multimodal learner corpora | Introduction to Corpus Linguistics" />
+  <meta name="generator" content="bookdown 0.38 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="2 Analysing learner speech in multimodal learner corpora | Introduction to Corpus Linguistics" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="2 Analysing learner speech in multimodal learner corpora | Introduction to Corpus Linguistics" />
+  
+  
+  
+
+<meta name="author" content="Martin Schweinberger" />
+
+
+<meta name="date" content="2024-04-03" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="outlook.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Lehrprobe Hildesheim</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="analysing-learner-speech-in-multimodal-learner-corpora.html"><a href="analysing-learner-speech-in-multimodal-learner-corpora.html"><i class="fa fa-check"></i><b>2</b> Analysing learner speech in multimodal learner corpora</a>
+<ul>
+<li class="chapter" data-level="" data-path="analysing-learner-speech-in-multimodal-learner-corpora.html"><a href="analysing-learner-speech-in-multimodal-learner-corpora.html#todays-task"><i class="fa fa-check"></i>Today’s task</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="outlook.html"><a href="outlook.html"><i class="fa fa-check"></i><b>3</b> Outlook</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introduction to Corpus Linguistics</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="analysing-learner-speech-in-multimodal-learner-corpora" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">2</span> Analysing learner speech in multimodal learner corpora<a href="analysing-learner-speech-in-multimodal-learner-corpora.html#analysing-learner-speech-in-multimodal-learner-corpora" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>In this session, we will focus on vowel production and learn how we can analyse vowels using Praat and visualize the results using R.</p>
+<p><strong>How is speech different from text?</strong></p>
+<p>When we analyse text, we focus on tokens or sequences of tokens and then compare the frequency of tokens or patterns in on corpus to their use in another corpus.</p>
+<p>When analyzing speech, we do not focus on tokens but rather on features of speech sounds and compare these features across sounds and groups of speakers</p>
+<p>The procedures also differ (but also show commonalities):</p>
+<ul>
+<li><p><strong>Text</strong>: finding a corpus : processing the corpus using corpus software (AntConc | R): analyzing information (Excel | R)</p></li>
+<li><p><strong>Speech</strong>: finding/recording audio data : alignment (BasMaus) : extracting speech features (Praat | <sup>?</sup>R) : analysing information (Excel | R)</p></li>
+</ul>
+<p><strong>How do we analyse speech</strong></p>
+<p><img src="images/vc.png" width="50%" style="float:right; padding:10px" /></p>
+<p>In this course, we cannot go into detail as analysing speech is very diverse and versatile. Therefore, we will *focus only on analysing vowel sounds**.</p>
+<p>**Features of vowel sounds (in English)*</p>
+<p>In English, vowel sounds differ in:</p>
+<ul>
+<li><p>Length: /i:/ and /I/ differ mostly in length: compare <em>heed</em> and <em>hid</em></p></li>
+<li><p>Tongue position (formants): /i:/ and /u:/ differ mostly in tongue position: when we produce /i:/, our tongue is raised to the front of our mouth while the tongue is raised to the back of our mouth when we produce /u:/</p></li>
+</ul>
+<p><strong>What are formants?</strong></p>
+<p><img src="images/vtongue.png" width="50%" style="float:right; padding:10px" /></p>
+<p>What are <strong>formants</strong> and do they have to do with tongue position?</p>
+<ul>
+<li><p>Formants are concentration of acoustic energy at a certain frequency</p></li>
+<li><p>First formants (F1) inversely correspond to the tongue height</p></li>
+<li><p>Second formants (F2) and inversely correspond to tongue fronting</p></li>
+</ul>
+<p>We can use the software Praat to extract features of speech from audio data.</p>
+<div id="todays-task" class="section level2 unnumbered hasAnchor">
+<h2>Today’s task<a href="analysing-learner-speech-in-multimodal-learner-corpora.html#todays-task" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Today, we will perform a case study on extracting vowel features using BasMaus, Praat, and Excel.</p>
+<p>The case study will show</p>
+<ul>
+<li><p>how we use BasMaus to force align the transcript to audio data and to generate TextGrids</p></li>
+<li><p>We use Praat to correct the force alignment and to extract formant frequencies</p></li>
+<li><p>We use Excel to analyse and visualise the resulting data in a vowel chart</p></li>
+</ul>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="outlook.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/MartinSchweinberger/LehrprobeHildesheim/edit/main/02-session.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/MartinSchweinberger/LehrprobeHildesheim/blob/main/02-session.Rmd",
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

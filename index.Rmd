@@ -5,7 +5,69 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 
-# Preparation and Introduction
+# Introduction
+
+The course aims to introduce corpus linguistics and text analysis with a particular focus on with a particular focus on the areas of language use, learning, and teaching. It will present the fundamental skills needed to plan and carry out analyses of language based on text samples (corpora). Students will learn to compile, work with, use, and explore collections of texts as well as how to apply computational methods in applied linguistic research. In so doing, it will motivate students to apply the skills and methods to a diverse set of textual data sources with a focus on learner data. Course assessments will provide the opportunity to apply these skills in relevant research tasks.
+
+### Course Description {-}
+
+The analysis of texts is undoubtedly a core aspect of many academic fields and important applications in education as well as the private sector. This course introduces students to the study of texts using computers, commonly called text analysis or corpus linguistics. Over the past decades, corpus linguistics has emerged both as a field in its own right but also as an important methodology across the language sciences including studies on language acquisition and learning, language variation and change as well as language use. As such, text analysis and corpus linguistics have helped to place linguistic theorizing on a sounder empirical footing by allowing researchers to explore massive amounts of textual data, be it learner essays, transcriptions of dinner table conversation, or historical documents. This course covers the fundamental concepts, origins, and methods of corpus linguistics and text analysis with a focus on a hands-on approach and using specific examples of how corpora can be used in applied linguistic research.
+
+This course provides information on compiling corpora (collections of language samples) and provide practical guidance on working with and analyzing texts using corpus linguistic methods, with a particular focus on the areas of language use, learning, and teaching. The course covers a wide variety of issues and topics related to corpus linguistics and text analysis such as the fundamental concepts, origins, and methods of corpus linguistics and text analysis, the focus is placed on a hands-on approach by exploring collections of texts, applying computational methods, and using specific examples of how corpora can be used in applied linguistic research.  In so doing, it will motivate students to apply the skills and methods to a diverse set of textual data sources with a focus on learner data.
 
 
+### Course plan {-}
+
+
+```{r tt0, echo = F, eval = F, message=FALSE, warning=FALSE}
+install.packages("dplyr")
+install.packages("flextable")
+```
+
+```{r tt1, echo = F, eval = T, message=FALSE, warning=FALSE}
+library(dplyr)
+library(flextable)
+Weeks <- paste0("Week ", 1:13)
+
+Activities <- c(
+  "What is a corpus? What is corpus linguistics?",
+  "How to design and build a corpus?",
+  "What can we do with corpora and corpus tools?",
+  "Analysing corpus and text data",
+  "What can corpora tell us about grammar?",
+  "What can corpora tell us about lexis?",
+  "Workshop: Association measures",
+  "Workshop: Analysing vowels using BasMaus and Praat",
+  "Workshop: Keyness",
+  "Workshop: Annotation",
+  "How can corpora be used in language teaching?",
+  "Applied corpus linguistics",
+  "Summary, review, and outlook"
+)
+Lectures <- c(
+  "Introduction to the Course and to Corpus Linguistics",
+  "Types of Corpora and corpus compilation",
+  "Basic Concepts in Corpus Linguistics",
+  "Where to find corpora and regular expressions",
+  "Data cleaning and processing",
+  "AntConc and a case study",
+  "Basic statistics for linguists",
+  "Analysing speech",
+  "More on collocations and keyness",
+  "Annotation: tagging and, parsing",
+  "Comparing texts I",
+  "Comparing texts II",
+  "Summary and round-up"
+)
+data.frame(Weeks, Lectures, Activities) %>%
+  as.data.frame() %>%
+  flextable::flextable() %>%
+  flextable::set_table_properties(width = .95, layout = "autofit") %>%
+  flextable::theme_zebra() %>%
+  flextable::fontsize(size = 12) %>%
+  flextable::fontsize(size = 12, part = "header") %>%
+  flextable::align_text_col(align = "left") %>%
+  flextable::set_caption(caption = "Overview of the course activities by week.")  %>%
+  flextable::border_outer()
+```
 
