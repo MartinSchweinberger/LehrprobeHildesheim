@@ -1,6 +1,6 @@
 # Analysing learner speech in multimodal learner corpora
 
-In this session, we will focus on vowel production and learn how to analyze vowels using [Praat](https://www.fon.hum.uva.nl/praat/). What you learn today can be applied to analyze learner speech using multimodal corpora such as [*The International Corpus Network of Asian Learners of English (ICNALE)*](https://language.sakura.ne.jp/icnale/) and allows you to examine differences in vowel production between learners and L1 speakers. Comparing learner speech to that of target speakers can enhance intelligibility and listeners' perceptions [cf. @munro1995foreign; @kang2020accent].
+In this session, we will focus on vowel production and learn how to analyze vowels using [Praat](https://www.fon.hum.uva.nl/praat/). What you learn today can be applied to analyze learner speech using multimodal corpora such as [*The International Corpus Network of Asian Learners of English (ICNALE)*](https://language.sakura.ne.jp/icnale/) and allows you to examine differences in vowel production between learners and L1 speakers. Comparing learner speech to that of target speakers can (but does not have to [@munro1995foreign]) enhance intelligibility, comprehensibility, and listeners' perceptions [cf. @kang2020accent; @flege1988production; @flege1995second].
 
 ### Session plan {-}
 
