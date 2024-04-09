@@ -41,7 +41,7 @@ knitr::include_graphics(here::here("images/ant.jpg"))
 
 Last session, we **explored AnConc** and and MS Excel and we used these tools to analyse swear words in Irish English. The session familiarized you with the most commonly used corpus tool and it showcased the workflow of a corpus study.
 
-As a homework, you were supposed to record yourselves in [Praat](https://www.fon.hum.uva.nl/praat/) producing the following words: *heed*, *hid*, *head*, *had*, *hod*, *hawed*, *hood*, *whod* (each three times).
+As a **homework**, students (you) were supposed to record yourselves in [Praat](https://www.fon.hum.uva.nl/praat/) producing the following words: *heed*, *hid*, *head*, *had*, *hod*, *hawed*, *hood*, *whod* (each three times).
 
 See [this tutorial](https://youtu.be/oUMcuW1UO88) on how to record yourselves in [Praat](https://www.fon.hum.uva.nl/praat/).
 
@@ -125,9 +125,11 @@ knitr::include_graphics(here::here("images/vc.png"))
 
 In English, vowel sounds differ in:
 
-* Length: /iː/ and /ɪ/ differ mostly in length: compare *heed* and *hid*
+* Length: /uː/ and /ʊ/ differ mostly in length: compare the vowel in  *who'd* and *hood*
 
 * Tongue position (formants): /iː/ and /uː/ differ mostly in tongue position: when we produce  /iː/, our tongue is raised to the front of our mouth while the tongue is raised to the back of our mouth when we produce  /uː/ 
+
+Unfortunately, it is rather difficult to check the tongue position while someone is speaking. However, we can use acoustics (sound properties) to infer how the tongue was positioned when a sound was produced.The sound properties that are most relevant when it comes to the production and acoustic analysis of vowel sounds are called **formants**.
 
 **What are formants?**
 
