@@ -333,6 +333,3 @@ In this session, you have learned about basic concepts relevant to analyzing spe
 
 Start of next session: students present their vowel charts and discuss difficulties and what they found out about their speech.
 
-## References {-}
-
-Okim Kang, Ron I Thomson, Meghan Moran, Which Features of Accent affect Understanding? Exploring the Intelligibility Threshold of Diverse Accent Varieties, Applied Linguistics, Volume 41, Issue 4, August 2020, Pages 453–480, https://doi.org/10.1093/applin/amy053
