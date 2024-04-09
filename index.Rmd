@@ -3,6 +3,8 @@ title: "Introduction to Corpus Linguistics"
 author: "Martin Schweinberger"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
+bibliography: bib.bibtex
+link-citations: yes
 ---
 
 # Introduction
@@ -37,7 +39,7 @@ Activities <- c(
   "What can corpora tell us about grammar?",
   "What can corpora tell us about lexis?",
   "Workshop: Association measures",
-  "Workshop: Analysing vowels using BasMaus and Praat",
+  "Workshop: Analysing vowels using BasMAUS and Praat",
   "Workshop: Keyness",
   "Workshop: Annotation",
   "How can corpora be used in language teaching?",
@@ -50,13 +52,13 @@ Lectures <- c(
   "Basic Concepts in Corpus Linguistics",
   "Where to find corpora and regular expressions",
   "Data cleaning and processing",
+  "Corpus Software Tools",
   "AntConc and a case study",
-  "Basic statistics for linguists",
   "Analysing speech",
+  "Basic statistics for linguists",
   "More on collocations and keyness",
   "Annotation: tagging and, parsing",
-  "Comparing texts I",
-  "Comparing texts II",
+  "Analysing registers across texts",
   "Summary and round-up"
 )
 data.frame(Weeks, Lectures, Activities) %>%
@@ -70,4 +72,35 @@ data.frame(Weeks, Lectures, Activities) %>%
   flextable::set_caption(caption = "Overview of the course activities by week.")  %>%
   flextable::border_outer()
 ```
+
+### Session plan {-}
+
+00:00–00:05	Welcome, review of last session
+
+00:05-00:10 Discussion: how does speech differ from text
+
+00:10-00:20 Basic concepts of speech analysis (features, formants, spectrogram)
+
+00:20-00:30 Showcasing the activity that we would then do together
+
+00:30 – 01:00	Group work: using WebMAUS Basic for alignment
+
+01:00 - 01:10 In-class reflection about task and discussion of next step
+
+01:10 - 1:15 Showcasing on how to extract formants
+
+01:15-01:25 Students work on formant extraction
+
+01:25-01:30 Reflection, summary, and outlook
+
+## Homework {-}
+
+1. Students finish extracting their vowel formants.
+2. Watch tutorial on how to visualize the formats in a vowel chart.
+3. Students regenerate their own vowel chart
+
+## Outlook on next session {-}
+
+Start of next session: students present their vowel charts and discuss difficulties and what they found out about their speech.
+
 

@@ -9,3 +9,5 @@ how-is-speech-different-from-text
 how-do-we-analyse-speech
 todays-task
 tab:tt1
+recap-of-last-session
+working-with-text-and-speech

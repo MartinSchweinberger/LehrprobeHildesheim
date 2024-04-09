@@ -23,7 +23,7 @@
 <meta name="author" content="Martin Schweinberger" />
 
 
-<meta name="date" content="2024-04-03" />
+<meta name="date" content="2024-04-09" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -59,6 +59,28 @@
   
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 </style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -76,10 +98,25 @@
 <li><a href="./">Lehrprobe Hildesheim</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#course-description"><i class="fa fa-check"></i>Course Description</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#course-plan"><i class="fa fa-check"></i>Course plan</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#session-plan"><i class="fa fa-check"></i>Session plan</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#homework"><i class="fa fa-check"></i>Homework</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#outlook-on-next-session"><i class="fa fa-check"></i>Outlook on next session</a></li>
+</ul></li>
 <li class="chapter" data-level="2" data-path="analysing-learner-speech-in-multimodal-learner-corpora.html"><a href="analysing-learner-speech-in-multimodal-learner-corpora.html"><i class="fa fa-check"></i><b>2</b> Analysing learner speech in multimodal learner corpora</a>
 <ul>
+<li class="chapter" data-level="" data-path="analysing-learner-speech-in-multimodal-learner-corpora.html"><a href="analysing-learner-speech-in-multimodal-learner-corpora.html#session-plan-1"><i class="fa fa-check"></i>Session plan</a></li>
+<li class="chapter" data-level="" data-path="analysing-learner-speech-in-multimodal-learner-corpora.html"><a href="analysing-learner-speech-in-multimodal-learner-corpora.html#recap-of-last-session"><i class="fa fa-check"></i>Recap of last session</a></li>
+<li class="chapter" data-level="" data-path="analysing-learner-speech-in-multimodal-learner-corpora.html"><a href="analysing-learner-speech-in-multimodal-learner-corpora.html#activating-discussion"><i class="fa fa-check"></i>Activating discussion</a></li>
+<li class="chapter" data-level="" data-path="analysing-learner-speech-in-multimodal-learner-corpora.html"><a href="analysing-learner-speech-in-multimodal-learner-corpora.html#working-with-text-and-speech"><i class="fa fa-check"></i>Working with text and speech</a></li>
 <li class="chapter" data-level="" data-path="analysing-learner-speech-in-multimodal-learner-corpora.html"><a href="analysing-learner-speech-in-multimodal-learner-corpora.html#todays-task"><i class="fa fa-check"></i>Today’s task</a></li>
+<li class="chapter" data-level="" data-path="analysing-learner-speech-in-multimodal-learner-corpora.html"><a href="analysing-learner-speech-in-multimodal-learner-corpora.html#summary-and-keypoints"><i class="fa fa-check"></i>Summary and keypoints</a></li>
+<li class="chapter" data-level="" data-path="analysing-learner-speech-in-multimodal-learner-corpora.html"><a href="analysing-learner-speech-in-multimodal-learner-corpora.html#homework-1"><i class="fa fa-check"></i>Homework</a></li>
+<li class="chapter" data-level="" data-path="analysing-learner-speech-in-multimodal-learner-corpora.html"><a href="analysing-learner-speech-in-multimodal-learner-corpora.html#next-session"><i class="fa fa-check"></i>Next session</a></li>
+<li class="chapter" data-level="" data-path="analysing-learner-speech-in-multimodal-learner-corpora.html"><a href="analysing-learner-speech-in-multimodal-learner-corpora.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="outlook.html"><a href="outlook.html"><i class="fa fa-check"></i><b>3</b> Outlook</a></li>
 <li class="divider"></li>
@@ -103,43 +140,235 @@
             <section class="normal" id="section-">
 <div id="analysing-learner-speech-in-multimodal-learner-corpora" class="section level1 hasAnchor" number="2">
 <h1><span class="header-section-number">2</span> Analysing learner speech in multimodal learner corpora<a href="analysing-learner-speech-in-multimodal-learner-corpora.html#analysing-learner-speech-in-multimodal-learner-corpora" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>In this session, we will focus on vowel production and learn how we can analyse vowels using Praat and visualize the results using R.</p>
+<p>In this session, we will focus on vowel production and learn how to analyze vowels using <a href="https://www.fon.hum.uva.nl/praat/">Praat</a>. What you learn today can be applied to analyze learner speech using multimodal corpora such as <a href="https://language.sakura.ne.jp/icnale/"><em>The International Corpus Network of Asian Learners of English (ICNALE)</em></a> and allows you to examine differences in vowel production between learners and L1 speakers. Comparing learner speech to that of target speakers can enhance intelligibility and listeners’ perceptions <span class="citation">(cf. <a href="#ref-munro1995foreign">Munro and Derwing 1995</a>; <a href="#ref-kang2020accent">Kang, Thomson, and Moran 2018</a>)</span>.</p>
+<div id="session-plan-1" class="section level3 unnumbered hasAnchor">
+<h3>Session plan<a href="analysing-learner-speech-in-multimodal-learner-corpora.html#session-plan-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>00:00–00:05 Welcome, review of last session</p>
+<p>00:05-00:10 Discussion: how does speech differ from text</p>
+<p>00:10-00:20 Basic concepts of speech analysis (features, formants, spectrogram)</p>
+<p>00:20-00:30 Showcasing the activity we will do together</p>
+<p>00:30 – 01:00 Group work: students use WebMAUS Basic for alignment</p>
+<p>01:00 - 01:10 In-class reflection about task and discussion of next step</p>
+<p>01:10 - 1:15 Showcasing on how to extract formants</p>
+<p>01:15-01:25 Group work: students work on formant extraction</p>
+<p>01:25-01:30 Reflection, summary, and outlook</p>
+</div>
+<div id="recap-of-last-session" class="section level2 unnumbered hasAnchor">
+<h2>Recap of last session<a href="analysing-learner-speech-in-multimodal-learner-corpora.html#recap-of-last-session" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><img src="images/ant.jpg" width="30%" style="float:right; padding:10px" /></p>
+<p>Last session, we <strong>explored AnConc</strong> and and MS Excel and we used these tools to analyse swear words in Irish English. The session familiarized you with the most commonly used corpus tool and it showcased the workflow of a corpus study.</p>
+<p>As a homework, you were supposed to record yourselves in <a href="https://www.fon.hum.uva.nl/praat/">Praat</a> producing the following words: <em>heed</em>, <em>hid</em>, <em>head</em>, <em>had</em>, <em>hod</em>, <em>hawed</em>, <em>hood</em>, <em>whod</em> (each three times).</p>
+<p>See <a href="https://youtu.be/oUMcuW1UO88">this tutorial</a> on how to record yourselves in <a href="https://www.fon.hum.uva.nl/praat/">Praat</a>.</p>
+</div>
+<div id="activating-discussion" class="section level2 unnumbered hasAnchor">
+<h2>Activating discussion<a href="analysing-learner-speech-in-multimodal-learner-corpora.html#activating-discussion" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="warning" style="padding:0.1em; background-color:#f2f2f2; color:#51247a">
+<span>
+<p style="margin-top:1em; text-align:center">
+<strong>DISCUSSION TIME</strong><br>
+How does speech affect the perception of the speaker by listeners?<br>
+How is speech in this respect different from text?
+</p>
+<p></span></p>
+</div>
+<p><br></p>
 <p><strong>How is speech different from text?</strong></p>
-<p>When we analyse text, we focus on tokens or sequences of tokens and then compare the frequency of tokens or patterns in on corpus to their use in another corpus.</p>
-<p>When analyzing speech, we do not focus on tokens but rather on features of speech sounds and compare these features across sounds and groups of speakers</p>
+<p>Speech is</p>
+<ul>
+<li><p>…</p></li>
+<li></li>
+<li></li>
+</ul>
+<p>Text is</p>
+<ul>
+<li><p>…</p></li>
+<li></li>
+<li></li>
+</ul>
+</div>
+<div id="working-with-text-and-speech" class="section level2 unnumbered hasAnchor">
+<h2>Working with text and speech<a href="analysing-learner-speech-in-multimodal-learner-corpora.html#working-with-text-and-speech" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>When we analyse text, we focus on <strong>tokens</strong> (~ words) or sequences of tokens and then <strong>compare the frequency of tokens or patterns in one corpus to their use in another corpus</strong>.</p>
+<p>When analyzing speech, we do not focus on tokens but rather on <strong>features of speech sounds</strong> and <strong>compare these features across sounds and groups of speakers</strong>.</p>
 <p>The procedures also differ (but also show commonalities):</p>
 <ul>
 <li><p><strong>Text</strong>: finding a corpus : processing the corpus using corpus software (AntConc | R): analyzing information (Excel | R)</p></li>
-<li><p><strong>Speech</strong>: finding/recording audio data : alignment (BasMaus) : extracting speech features (Praat | <sup>?</sup>R) : analysing information (Excel | R)</p></li>
+<li><p><strong>Speech</strong>: finding/recording audio data : alignment + segmentation (<a href="https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/WebMAUSBasic">WebMAUS Basic</a>) : extracting speech features (<a href="https://www.fon.hum.uva.nl/praat/">Praat</a> | <sup>?</sup>R) : analyzing information (Excel | R)</p></li>
 </ul>
-<p><strong>How do we analyse speech</strong></p>
-<p><img src="images/vc.png" width="50%" style="float:right; padding:10px" /></p>
-<p>In this course, we cannot go into detail as analysing speech is very diverse and versatile. Therefore, we will *focus only on analysing vowel sounds**.</p>
-<p>**Features of vowel sounds (in English)*</p>
+<div class="warning" style="padding:0.1em; background-color:#f2f2f2; color:#51247a">
+<span>
+<p style="margin-top:1em; text-align:center">
+<strong>QUESTION TIME</strong><br>
+What is segmentation and alignment and why is it necessary when analyzing speech sounds?
+</p>
+<p></span></p>
+</div>
+<p><br></p>
+<p><strong>Features of vowel sounds (in English)</strong></p>
+<p>In this course, we cannot go into detail as speech is very diverse and versatile. Therefore, we will <strong>focus only on analyzing vowel sounds</strong>.</p>
+<div class="warning" style="padding:0.1em; background-color:#f2f2f2; color:#51247a">
+<span>
+<p style="margin-top:1em; text-align:center">
+<strong>QUESTION TIME</strong><br>
+What differentiates the vowel sounds in <em>heed</em>, <em>hid</em>, <em>hood</em>, and <em>who’d</em>?<br>
+Do we need a tongue to produce vowel sounds?
+</p>
+<p></span></p>
+</div>
+<p><br></p>
+<p><img src="images/vc.png" width="40%" style="float:right; padding:10px" /></p>
 <p>In English, vowel sounds differ in:</p>
 <ul>
-<li><p>Length: /i:/ and /I/ differ mostly in length: compare <em>heed</em> and <em>hid</em></p></li>
-<li><p>Tongue position (formants): /i:/ and /u:/ differ mostly in tongue position: when we produce /i:/, our tongue is raised to the front of our mouth while the tongue is raised to the back of our mouth when we produce /u:/</p></li>
+<li><p>Length: /iː/ and /ɪ/ differ mostly in length: compare <em>heed</em> and <em>hid</em></p></li>
+<li><p>Tongue position (formants): /iː/ and /uː/ differ mostly in tongue position: when we produce /iː/, our tongue is raised to the front of our mouth while the tongue is raised to the back of our mouth when we produce /uː/</p></li>
 </ul>
 <p><strong>What are formants?</strong></p>
-<p><img src="images/vtongue.png" width="50%" style="float:right; padding:10px" /></p>
+<p><img src="images/vtongue.png" width="30%" style="float:right; padding:10px" /></p>
 <p>What are <strong>formants</strong> and do they have to do with tongue position?</p>
 <ul>
-<li><p>Formants are concentration of acoustic energy at a certain frequency</p></li>
+<li><p>Formants are concentration of acoustic energy at a certain frequency that show up in so called spectrograms.</p></li>
 <li><p>First formants (F1) inversely correspond to the tongue height</p></li>
 <li><p>Second formants (F2) and inversely correspond to tongue fronting</p></li>
 </ul>
-<p>We can use the software Praat to extract features of speech from audio data.</p>
+<p>We can use the software <a href="https://www.fon.hum.uva.nl/praat/">Praat</a> to extract features of speech from audio data.</p>
+<p><strong>What do the formants of vowel sounds “look like”?</strong></p>
+<p>Let’s have a look at some spectrograms of vowels. Try to understand what they are showing and compare them:</p>
+<ul>
+<li>Can you see differences?<br />
+</li>
+<li>Are some sounds longer than others?<br />
+</li>
+<li>What would you see if there were diphthongs?</li>
+</ul>
+<p><img src="images/vowelspecs.jpg" width="100%" style="float:right; padding:10px" /></p>
+</div>
 <div id="todays-task" class="section level2 unnumbered hasAnchor">
 <h2>Today’s task<a href="analysing-learner-speech-in-multimodal-learner-corpora.html#todays-task" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Today, we will perform a case study on extracting vowel features using BasMaus, Praat, and Excel.</p>
+<p>Today, we will perform a case study on extracting vowel features using <a href="https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/WebMAUSBasic">WebMAUS Basic</a>, <a href="https://www.fon.hum.uva.nl/praat/">Praat</a>, and Excel.</p>
 <p>The case study will show</p>
 <ul>
-<li><p>how we use BasMaus to force align the transcript to audio data and to generate TextGrids</p></li>
-<li><p>We use Praat to correct the force alignment and to extract formant frequencies</p></li>
-<li><p>We use Excel to analyse and visualise the resulting data in a vowel chart</p></li>
+<li><p>how we use WebMaus Basic to force align (segmentation and alignment) the transcript to audio data and to generate TextGrids</p></li>
+<li><p>We use <a href="https://www.fon.hum.uva.nl/praat/">Praat</a> to correct the force alignment and to extract formant frequencies</p></li>
+<li><p>We use Excel to analyse and visualize the resulting data in a vowel chart</p></li>
 </ul>
+<p><img src="images/hVd.png" width="15%" style="float:right" /></p>
+<p><strong>1. First, open the folder with your recordings of the prompts.</strong></p>
+<div class="warning" style="padding:0.1em; background-color:#f2f2f2; color:#51247a">
+<span>
+<p style="margin-top:1em; text-align:center">
+<b>IMPORTANT - THIS WOULD HAVE BEEN HOMEWORK! </B>
+<br>
+For the homework, students would have been asked <br>to record themselves in <a href="https://www.fon.hum.uva.nl/praat/">Praat</a> producing the prompt words (shown below).<br>
+As a result, every student would have two files:
+<br>
+1. a <strong>txt-file</strong> with the prompt words and <br>
+2. a <strong>wav-file</strong> with the recording of the prompt words.
+</p>
+<p></span></p>
+</div>
+<p><br></p>
+<p><img src="images/files.png" width="15%" style="float:right; padding:10px" /></p>
+<p>Let’s explore the spectrograms of the recordings together!</p>
+<ol start="2" style="list-style-type: decimal">
+<li><p><strong>Make sure that the recording has the same name as the prompt words</strong> (in my case they are called “hVd_MS.txt” and “hVd_MS.wav”)</p></li>
+<li><p><strong>Go to <a href="https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/WebMAUSBasic">WebMAUS Basic</a></strong></p></li>
+</ol>
+<p><img src="images/webmaus.png" width="50%" style="float:right; padding:10px" /></p>
+<ol style="list-style-type: lower-alpha">
+<li>Select <em>English</em> (any of the models, US, AU, GB, etc., will work) as your <em>Language</em></li>
+<li>Drag-n-drop your txt- and wav-file into the <em>Files</em> box</li>
+<li>Check the box next to “<em>I have read and accepted the terms of usage for this service…</em>”</li>
+<li>Click on “<em>Upload</em>”</li>
+<li>Click on “<em>Run Web Service</em>” (you may need to scroll down)</li>
+</ol>
+<ol start="4" style="list-style-type: decimal">
+<li>Download the resulting TextGrid-file as a zip-file (as suggested). Then, unzip the file once it has downloaded and then save the resulting TextGrid-file together with our txt and wav-files.</li>
+</ol>
+<p><img src="images/bmres.png" width="50%" style="float:right; padding:10px" /></p>
+<ol start="5" style="list-style-type: decimal">
+<li>Open Praat, click on “<em>Open</em>”, then on “<em>Read from file</em>” and load the <strong>wav-file</strong> and the <strong>TextGrid-file</strong> into Praat.</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>Highlight both files (the txt and the wav) (you can use ctrl + A for this)</li>
+<li>Click “<em>View &amp; edit</em>” (a new window like the one below should open).</li>
+</ol>
+<p><img src="images/praat1.png" width="100%" style="float:right; padding:10px" /></p>
+<p><br><br>
+6. Now zoom in (it’s in the lower left corner) and scroll to the beginning until the Praat looks something like below (it’s important that you can see the sound features in a detail without zooming in too much).</p>
+<p><img src="images/p2.png" width="100%" style="float:right; padding:10px" /></p>
+<br><br>
+<div class="warning" style="padding:0.1em; background-color:#f2f2f2; color:#51247a">
+<span>
+<p style="margin-top:1em; text-align:center">
+<strong>DISCUSSION TIME</strong><br>
+What do you see?<br>
+Are there issues with the alignment?
+</p>
+<p></span></p>
+</div>
+<p><br></p>
+<div class="warning" style="padding:0.1em; background-color:#f2f2f2; color:#51247a">
+<span>
+<p style="margin-top:1em; text-align:center">
+<strong>HINT</strong><br>
+Select a range in the upper window and, to listen to that segment, click on the row with the duration of the segment (0.430792) in the picture below.
+</p>
+<p></span></p>
+<p><img src="images/p3.png" width="100%" style="float:right; padding:10px" /></p>
+</div>
+<p><br><br></p>
+<ol start="8" style="list-style-type: decimal">
+<li><p>In tier 3 (the lowest tier), click into a sound and then click on the timing row (right below tier 3) to listen to a sound.</p></li>
+<li><p>As the segmentation of many vowel sounds is a bit inaccurate, click and hold to move the borders/edges of sounds to better match the “<em>real</em>” beginnings and ends of vowel sounds (click into the sound and listen if the segmentation has improved).</p></li>
+<li><p>In “<em>File</em>” (top right), select “<em>Save whole TextGrid as txt file</em>” to save an updated version of your TextGrid (give it a new name so as to not overwrite the existing raw TextGrid).</p></li>
+<li><p>Once the segmentation is accurate, go back to the beginning and click into the first vowel sound this should be the /iː/ of the first instance of <em>heed</em>.</p></li>
+</ol>
+<p><img src="images/p4.png" width="40%" style="float:right; padding:10px" /></p>
+<p>Once the sound is selected and highlighted in yellow, click on “<em>Formants</em>” in the top ribbon and then click on “<em>Formant listing</em>” under “<em>Query formants</em>”). A table will appear. Highlight and then copy and paste the content of the table into an editor program like TextPad or NotePad++ that allow you to use regular expressions.</p>
+<p><img src="images/tp.png" width="40%" style="float:right; padding:10px" /></p>
+<ol start="12" style="list-style-type: decimal">
+<li>In that editor, replace 3 white spaces with a tab ( and then paste the result into MS Excel. Add three additional columns:</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><p>id: which should be a running number from 1 to the end of the entire table (this entire table should include all other formant tables that you extract);<br />
+</p></li>
+<li><p>word: in which you fill in the word in which the vowel sound occurred, e.g. <em>heed</em> or <em>hid</em>;</p></li>
+<li><p>trial: which should be either 1, 2, or 3 depending on which version of the word the sound appeared in.</p></li>
+</ol>
+<p><img src="images/exl.png" width="40%" style="float:right; padding:10px" /></p>
+<ol start="13" style="list-style-type: decimal">
+<li>Repeat steps 12 and 13 for all vowels in the sound file. At the end you should have a table with formant frequencies of all vowels in the sound file.</li>
+</ol>
+</div>
+<div id="summary-and-keypoints" class="section level2 unnumbered hasAnchor">
+<h2>Summary and keypoints<a href="analysing-learner-speech-in-multimodal-learner-corpora.html#summary-and-keypoints" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In this session, you have learned about basic concepts relevant to analyzing speech (e.g., spectrogram, fetaures, formants) and learned how to analyse vowels combining WebMUAS Basic and Praat. The steps of the analysis can be transferred to answer a wide range of research questions. In addition, students were encouraged to critically reflect upon differences of text and speech and what role speech plays in social interactions.</p>
+</div>
+<div id="homework-1" class="section level2 unnumbered hasAnchor">
+<h2>Homework<a href="analysing-learner-speech-in-multimodal-learner-corpora.html#homework-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ol style="list-style-type: decimal">
+<li>Students finish extracting their vowel formants.</li>
+<li>Watch tutorial on how to visualize the formats in a vowel chart.</li>
+<li>Students regenerate their own vowel chart</li>
+</ol>
+</div>
+<div id="next-session" class="section level2 unnumbered hasAnchor">
+<h2>Next session<a href="analysing-learner-speech-in-multimodal-learner-corpora.html#next-session" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Start of next session: students present their vowel charts and discuss difficulties and what they found out about their speech.</p>
+</div>
+<div id="references" class="section level2 unnumbered hasAnchor">
+<h2>References<a href="analysing-learner-speech-in-multimodal-learner-corpora.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Okim Kang, Ron I Thomson, Meghan Moran, Which Features of Accent affect Understanding? Exploring the Intelligibility Threshold of Diverse Accent Varieties, Applied Linguistics, Volume 41, Issue 4, August 2020, Pages 453–480, <a href="https://doi.org/10.1093/applin/amy053" class="uri">https://doi.org/10.1093/applin/amy053</a></p>
 
+</div>
+</div>
+<h3> Outlook<a href="outlook.html#outlook" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-kang2020accent" class="csl-entry">
+Kang, Okim, Ron I Thomson, and Meghan Moran. 2018. <span>“<span class="nocase">Which Features of Accent affect Understanding? Exploring the Intelligibility Threshold of Diverse Accent Varieties</span>.”</span> <em>Applied Linguistics</em> 41 (4): 453–80. <a href="https://doi.org/10.1093/applin/amy053">https://doi.org/10.1093/applin/amy053</a>.
+</div>
+<div id="ref-munro1995foreign" class="csl-entry">
+Munro, Murray J, and Tracey M Derwing. 1995. <span>“Foreign Accent, Comprehensibility, and Intelligibility in the Speech of Second Language Learners.”</span> <em>Language Learning</em> 45 (1): 73–97.
 </div>
 </div>
             </section>
