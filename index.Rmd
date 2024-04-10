@@ -93,14 +93,5 @@ data.frame(Weeks, Lectures, Activities) %>%
 
 01:25-01:30 Reflection, summary, and outlook
 
-## Homework {-}
-
-1. Students finish extracting their vowel formants.
-2. Watch tutorial on how to visualize the formats in a vowel chart.
-3. Students regenerate their own vowel chart
-
-## Outlook on next session {-}
-
-Start of next session: students present their vowel charts and discuss difficulties and what they found out about their speech.
 
 
