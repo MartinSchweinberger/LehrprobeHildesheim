@@ -359,9 +359,7 @@ knitr::include_graphics(here::here("images/exl.png"))
 
 13. Repeat steps 12 and 13 for all vowels in the sound file. At the end you should have a table with formant frequencies of all vowels in the sound file.
 
-14. Create a Pivot table in MS Excel (go to *Insert* and select *From Table/Range*) and selecet *Existing Worksheet* and click on an empty cell.
-
-
+14. Create a Pivot table in MS Excel (go to *Insert* and select *From Table/Range*) and select *Existing Worksheet* and click on an empty cell.
 
 15. Drag-n-drop *word* into  *Rows* and *F1_Hz* as well as *F2_Hz* into the *Values* 
 
