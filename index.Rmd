@@ -73,25 +73,3 @@ data.frame(Weeks, Lectures, Activities) %>%
   flextable::border_outer()
 ```
 
-### Session plan for week 8: Analysing speech{-}
-
-00:00–00:05	Welcome, review of last session
-
-00:05-00:10 Discussion: how does speech differ from text
-
-00:10-00:20 Basic concepts of speech analysis (features, formants, spectrogram)
-
-00:20-00:30 Showcasing the activity that we would then do together
-
-00:30 – 01:00	Group work: using WebMAUS Basic for alignment
-
-01:00 - 01:10 In-class reflection about task and discussion of next step
-
-01:10 - 1:15 Showcasing on how to extract formants
-
-01:15-01:25 Students work on formant extraction
-
-01:25-01:30 Reflection, summary, and outlook
-
-
-
