@@ -6,19 +6,25 @@ In this session, we will focus on vowel production and learn how to analyze vowe
 
 00:00–00:05	Welcome, review of last session
 
-00:05-00:10 Discussion: how does speech differ from text
+00:05-00:10 Discussion: how does speech differ from text?
 
-00:10-00:20 Basic concepts of speech analysis (features, formants, spectrogram)
+00:10-00:20 Basic concepts of speech analysis
 
-00:20-00:30 Showcasing the activity we will do together
+00:20-00:25 Discussion: target varieties?
 
-00:30 – 01:00	Group work: students use WebMAUS Basic for alignment
+00:25 – 01:00	Showcasing today's activity <br>
+
+Group work: students use 
+
+* WebMAUS Basic (segmentation + alignment) 
+
+* Praat (formant extracting)
 
 01:00 - 01:10 In-class reflection about task and discussion of next step
 
-01:10 - 1:15 Showcasing on how to extract formants
+01:10 - 1:15 Showcasing on how to generate vowel charts in MS Excel
 
-01:15-01:25 Group work:  students work on formant extraction
+01:15-01:25 Group work:  students work on their vowel charts
 
 01:25-01:30 Reflection, summary, and outlook
 
@@ -160,6 +166,38 @@ Let's have a look at some spectrograms of vowels. Try to understand what they ar
 knitr::include_graphics(here::here("images/vowelspecs.jpg"))
 ```
 
+## Reflection discussion{-}
+
+**Targets?**
+
+<div class="warning" style='padding:0.1em; background-color:#f2f2f2; color:#51247a'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+**DISCUSSION TIME**<br><br>
+Do we need "target varieties"?<br>
+What issues but also advantages are associated with "target varieties"?<br>
+How can the beauty of diversity and variability be reconciled with the concept of "target varieties" in EFL classroom?<br>
+</p>
+</span>
+</div>
+
+<br>
+
+Issues of the concept of *target varities*:  
+
+* ...
+
+* 
+
+* 
+
+Advantages of adhering to *target varities*: 
+
+* ...
+
+* 
+
+* 
 
 ## Today’s task {-}
 
@@ -320,6 +358,35 @@ knitr::include_graphics(here::here("images/exl.png"))
 ```
 
 13. Repeat steps 12 and 13 for all vowels in the sound file. At the end you should have a table with formant frequencies of all vowels in the sound file.
+
+14. Create a Pivot table in MS Excel (go to *Insert* and select *From Table/Range*) and selecet *Existing Worksheet* and click on an empty cell.
+
+
+
+15. Drag-n-drop *word* into  *Rows* and *F1_Hz* as well as *F2_Hz* into the *Values* 
+
+16. In *Values*, click on the drop-down at the end of *Sum of F1_Hz* and click on *Value Field Settings...* and select *Average* and *OK*
+
+```{r xltb, echo=FALSE, out.width= "40%", out.extra='style="float:right; padding:10px"'}
+knitr::include_graphics(here::here("images/xltb.png"))
+```
+
+17. In *Values*, click on the drop-down at the end of *Sum of F2_Hz* and click on *Value Field Settings...* and select *Average* and *OK*
+
+18. Copy the table and paste it back **as Values**(!)
+
+19. Click on *Insert* in the top ribbon and then click on *Recommended Charts* and select the scatter plot
+
+20. Right click on an axis select *Format Axis* and check *Values in reverse order*
+
+21. Add a title and axes titles as well as data labels
+
+The resulting plot should look like similar to this:
+
+
+```{r vcp, echo=FALSE, out.width= "70%", out.extra='style="float:center; padding:10px"'}
+knitr::include_graphics(here::here("images/vcp.png"))
+```
 
 ## Summary and keypoints {-}
 
